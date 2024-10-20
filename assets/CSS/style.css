@@ -1,0 +1,63 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+
+
+h1 {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(255, 185, 54);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+option:hover{
+background-color: rgb(77, 77, 77);
+}
